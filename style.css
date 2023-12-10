@@ -97,15 +97,16 @@ body {
     }
 }
 
-.img_orb {
+.div_img_orb {
     margin-top: 30px;
     width: 100%;
     height: 560px;
+    background-image: url(Image\ PlaceHolder.png);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
 }
 
 .div_artist_info_section {
-    width: 1050px;
-    margin: auto;
     margin-top: 40px;
 }
 
@@ -246,7 +247,7 @@ body {
 @media only screen and (max-width: 900px) {
     .div_additional_info {
         width: 315px !important;
-        margin-left: 20px;
+        margin-left: 705px;
     }
     .col_addinfo {
         width: 315px !important;
@@ -276,13 +277,11 @@ body {
         padding-top: 20px !important;
     }
     .row_400 {
-        width: 400px !important; 
+        max-width: 400px !important; 
     }
     .col_ds {
         display: none !important;
-        position: absolute;
-        top: -9999px;
-        left: -9999px;
+
     }
     .d_n {
         display: none !important;
